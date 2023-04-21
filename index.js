@@ -8,7 +8,6 @@ function palindrome(str) {
   cleanstr = cleanstr.replaceAll("-","");
   cleanstr = cleanstr.replaceAll(".","");
   cleanstr = cleanstr.toLowerCase();
-  // str = str.replace(/\s/g, "");
   console.log(cleanstr);
   
   for(let i = 0; i < cleanstr.length/2; i++){
